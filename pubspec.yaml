@@ -1,0 +1,37 @@
+name: rest_api_demo
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  cached_network_image: ^3.2.0
+  cupertino_icons: ^1.0.2
+  dio: ^4.0.4
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^1.0.3
+  freezed_annotation: ^1.1.0
+  get_it: ^7.2.0
+  http: ^0.13.4
+  intl: ^0.17.0
+  retrofit: ^3.0.1+1
+  state_notifier: ^0.7.2+1
+  url_launcher: ^6.0.20
+  webview_flutter: ^3.0.0
+
+dev_dependencies:
+  build_runner: ^2.1.7
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  freezed: ^1.1.1
+  json_serializable: ^6.1.4
+  retrofit_generator: ^4.0.1
+
+flutter:
+  uses-material-design: true
